@@ -1,5 +1,3 @@
-Python 3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 def train_model(model, train_data, train_labels=None, epochs=10, batch_size=32,
                 criterion=None, optimizer=None, lr=1e-3):
     import tensorflow as tf
